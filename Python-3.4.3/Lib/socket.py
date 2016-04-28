@@ -500,7 +500,7 @@ def create_connection(address, timeout=_GLOBAL_DEFAULT_TIMEOUT,
                 sock.settimeout(timeout)
             if source_address:
                 sock.bind(source_address)
-        sock.connect(sa)
+                sock.connect(sa)
             return sock
 
         except error as _:
