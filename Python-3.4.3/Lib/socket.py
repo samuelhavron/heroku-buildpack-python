@@ -1,4 +1,4 @@
-t# Wrapper module for _socket, providing some additional facilities
+# Wrapper module for _socket, providing some additional facilities
 # implemented in Python.
 
 """\
